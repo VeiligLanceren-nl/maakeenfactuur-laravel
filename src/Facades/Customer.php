@@ -2,8 +2,8 @@
 
 namespace VeiligLanceren\MaakEenFactuur\Facades;
 
-use VeiligLanceren\MaakEenFactuur\Popo\CustomerPopo;
 use Illuminate\Support\Facades\Facade;
+use VeiligLanceren\MaakEenFactuur\Popo\CustomerPopo;
 
 /**
  * @method static CustomerPopo[]|array all()

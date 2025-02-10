@@ -2,9 +2,9 @@
 
 namespace VeiligLanceren\MaakEenFactuur\Services;
 
-use VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
+use VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException;
 
 class ApiService
 {
