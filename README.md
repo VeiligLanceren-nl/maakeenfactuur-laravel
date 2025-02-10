@@ -9,9 +9,9 @@ MaakEenFactuur-Laravel is a PHP library that provides simplified interfaces for 
 - **Invoice processing**: Create, update, and fetch invoices with minimal hassle.
 - **Exception handling**: Robust error management to handle API responses gracefully.
 
-## VeiligLanceren.nl
+![Veilig Lanceren](/veilig-lanceren-logo.png)
 
-This package is maintained by VeiligLanceren.nl, your partner is website development and everything else to power up your online company. More information available on [our website](https://veiliglanceren.nl).
+This package is maintained by VeiligLanceren.nl, your partner in website development and everything else to power up your online company. More information available on [our website](https://veiliglanceren.nl).
 
 ## Installation
 
