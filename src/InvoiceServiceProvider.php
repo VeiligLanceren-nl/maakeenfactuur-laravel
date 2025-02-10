@@ -1,11 +1,11 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur;
+namespace VeiligLanceren\MaakEenFactuur;
 
-use Gyvex\MaakEenFactuur\Services\CustomerService;
-use Gyvex\MaakEenFactuur\Services\InvoiceService;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+use VeiligLanceren\MaakEenFactuur\Services\CustomerService;
+use VeiligLanceren\MaakEenFactuur\Services\InvoiceService;
 
 class InvoiceServiceProvider extends PackageServiceProvider
 {

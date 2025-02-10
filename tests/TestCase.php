@@ -1,10 +1,10 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Tests;
+namespace VeiligLanceren\MaakEenFactuur\Tests;
 
-use Gyvex\MaakEenFactuur\InvoiceServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
+use VeiligLanceren\MaakEenFactuur\InvoiceServiceProvider;
 
 class TestCase extends Orchestra
 {

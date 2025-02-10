@@ -1,10 +1,10 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Services;
+namespace VeiligLanceren\MaakEenFactuur\Services;
 
-use Gyvex\MaakEenFactuur\Exception\ApiErrorException;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
+use VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException;
 
 class ApiService
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Facades;
+namespace VeiligLanceren\MaakEenFactuur\Facades;
 
-use Gyvex\MaakEenFactuur\Popo\CustomerPopo;
 use Illuminate\Support\Facades\Facade;
+use VeiligLanceren\MaakEenFactuur\Popo\CustomerPopo;
 
 /**
  * @method static CustomerPopo[]|array all()
  * @method static CustomerPopo create(array $data)
  * @method static CustomerPopo find(int $customerId)
  *
- * @see \Gyvex\MaakEenFactuur\Services\CustomerService
+ * @see \VeiligLanceren\MaakEenFactuur\Services\CustomerService
  */
 class Customer extends Facade
 {
