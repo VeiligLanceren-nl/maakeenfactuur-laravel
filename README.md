@@ -1,4 +1,4 @@
-# MaakEenFactuur Laravel Package
+# MaakEenFactuur.nl Laravel package
 
 📜 **Overview**  
 MaakEenFactuur-Laravel is a PHP library that provides simplified interfaces for managing customers and invoices via our API. It includes two primary facades: `Customer` and `Invoice`, which are backed by powerful service classes handling all interactions with the API.
@@ -9,12 +9,16 @@ MaakEenFactuur-Laravel is a PHP library that provides simplified interfaces for 
 - **Invoice processing**: Create, update, and fetch invoices with minimal hassle.
 - **Exception handling**: Robust error management to handle API responses gracefully.
 
+## VeiligLanceren.nl
+
+This package is maintained by VeiligLanceren.nl, your partner is website development and everything else to power up your online company. More information available on [our website](https://veiliglanceren.nl).
+
 ## Installation
 
-To use Gyvex MaakEenFactuur in your project, require it via Composer:
+To use the Laravel package of MaakEenFactuur.nl in your project, require it via Composer in your terminal:
 
 ```bash
-composer require gyvex-com/maakeenfactuur-laravel
+composer require VeiligLanceren-nl/maakeenfactuur-laravel
 ```
 
 ## Configuration

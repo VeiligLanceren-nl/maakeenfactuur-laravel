@@ -1,17 +1,21 @@
 {
-    "name": "gyvex-com/maakeenfactuur-laravel",
+    "name": "VeiligLanceren-nl/maakeenfactuur-laravel",
     "description": "Laravel package for easily connecting with MaakEenFactuur.nl",
     "keywords": [
-        "gyvex-com",
+        "veiliglanceren",
+        "veilig",
+        "lanceren",
         "laravel",
-        "maakeenfactuur-laravel"
+        "maakeenfactuur-laravel",
+        "factuur",
+        "facturatie api"
     ],
-    "homepage": "https://github.com/gyvex-com/maakeenfactuur-laravel",
+    "homepage": "https://github.com/VeiligLanceren-nl/maakeenfactuur-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "Gyvex",
-            "email": "niels@gyvex.com",
+            "name": "Niels Hamelink",
+            "email": "ikstartnu@veiliglanceren.nl",
             "role": "Developer"
         }
     ],
@@ -36,13 +40,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Gyvex\\MaakEenFactuur\\": "src/",
-            "Gyvex\\MaakEenFactuur\\Database\\Factories\\": "database/factories/"
+            "VeiligLanceren\\MaakEenFactuur\\": "src/",
+            "VeiligLanceren\\MaakEenFactuur\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gyvex\\MaakEenFactuur\\Tests\\": "tests/",
+            "VeiligLanceren\\MaakEenFactuur\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -74,11 +78,11 @@
     "extra": {
         "laravel": {
             "providers": [
-              "Gyvex\\MaakEenFactuur\\InvoiceServiceProvider"
+              "VeiligLanceren\\MaakEenFactuur\\InvoiceServiceProvider"
             ],
             "aliases": {
-                "Customer": "Gyvex\\MaakEenFactuur\\Facades\\Customer",
-                "Invoice": "Gyvex\\MaakEenFactuur\\Facades\\Invoice"
+                "Customer": "VeiligLanceren\\MaakEenFactuur\\Facades\\Customer",
+                "Invoice": "VeiligLanceren\\MaakEenFactuur\\Facades\\Invoice"
             }
         },
         "branch-alias": {

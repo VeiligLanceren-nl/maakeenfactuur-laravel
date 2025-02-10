@@ -1,6 +1,6 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Exception;
+namespace VeiligLanceren\MaakEenFactuur\Exception;
 
 use Exception;
 use Illuminate\Http\Client\Response;

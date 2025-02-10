@@ -1,10 +1,10 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Services;
+namespace VeiligLanceren\MaakEenFactuur\Services;
 
-use Gyvex\MaakEenFactuur\Exception\ApiErrorException;
-use Gyvex\MaakEenFactuur\Facades\Customer;
-use Gyvex\MaakEenFactuur\Popo\CustomerPopo;
+use VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException;
+use VeiligLanceren\MaakEenFactuur\Facades\Customer;
+use VeiligLanceren\MaakEenFactuur\Popo\CustomerPopo;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Collection;
 use Scrumble\Popo\BasePopo;

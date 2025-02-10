@@ -1,8 +1,8 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Facades;
+namespace VeiligLanceren\MaakEenFactuur\Facades;
 
-use Gyvex\MaakEenFactuur\Popo\InvoicePopo;
+use VeiligLanceren\MaakEenFactuur\Popo\InvoicePopo;
 use Illuminate\Support\Facades\Facade;
 
 /**
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static InvoicePopo update(int $invoiceId, array $data)
  * @method static InvoicePopo find(int $invoiceId)
  *
- * @see \Gyvex\MaakEenFactuur\Services\InvoiceService
+ * @see \VeiligLanceren\MaakEenFactuur\Services\InvoiceService
  */
 class Invoice extends Facade
 {

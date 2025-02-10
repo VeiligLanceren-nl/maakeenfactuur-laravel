@@ -1,6 +1,6 @@
 <?php
 
-namespace Gyvex\MaakEenFactuur\Popo;
+namespace VeiligLanceren\MaakEenFactuur\Popo;
 
 use Scrumble\Popo\BasePopo;
 
