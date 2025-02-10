@@ -2,10 +2,10 @@
 
 namespace VeiligLanceren\MaakEenFactuur;
 
-use VeiligLanceren\MaakEenFactuur\Services\CustomerService;
-use VeiligLanceren\MaakEenFactuur\Services\InvoiceService;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
+use VeiligLanceren\MaakEenFactuur\Services\CustomerService;
+use VeiligLanceren\MaakEenFactuur\Services\InvoiceService;
 
 class InvoiceServiceProvider extends PackageServiceProvider
 {

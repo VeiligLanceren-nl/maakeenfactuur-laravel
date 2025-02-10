@@ -2,12 +2,12 @@
 
 namespace VeiligLanceren\MaakEenFactuur\Services;
 
-use VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException;
-use VeiligLanceren\MaakEenFactuur\Facades\Customer;
-use VeiligLanceren\MaakEenFactuur\Popo\CustomerPopo;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Collection;
 use Scrumble\Popo\BasePopo;
+use VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException;
+use VeiligLanceren\MaakEenFactuur\Facades\Customer;
+use VeiligLanceren\MaakEenFactuur\Popo\CustomerPopo;
 
 class CustomerService
 {

@@ -2,8 +2,8 @@
 
 namespace VeiligLanceren\MaakEenFactuur\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Orchestra\Testbench\TestCase as Orchestra;
 use VeiligLanceren\MaakEenFactuur\InvoiceServiceProvider;
 
 class TestCase extends Orchestra
