@@ -1,5 +1,6 @@
 {
-    "name": "VeiligLanceren-nl/maakeenfactuur-laravel",
+    "name": "veiliglanceren/maakeenfactuur-laravel",
+    "version": "1.2.0",
     "description": "Laravel package for easily connecting with MaakEenFactuur.nl",
     "keywords": [
         "veiliglanceren",

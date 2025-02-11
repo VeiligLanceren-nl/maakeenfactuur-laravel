@@ -1,13 +1,20 @@
 # MaakEenFactuur.nl Laravel package
 
+![Maak Een Factuur Laravel API](/favicon.png)
+
 📜 **Overview**  
-MaakEenFactuur-Laravel is a PHP library that provides simplified interfaces for managing customers and invoices via our API. It includes two primary facades: `Customer` and `Invoice`, which are backed by powerful service classes handling all interactions with the API.
+This Laravel package is a PHP library that provides simplified interfaces for managing customers and invoices via our API. It includes two primary facades: `Customer` and `Invoice`, which are backed by powerful service classes handling all interactions with the API.
+
+- **Website**: [MaakEenFactuur.nl](https://maakeenfactuur.nl)
+- **Documentatie**: [API documentatie](https://api.maakeenfactuur.nl/)
+- **Supported Laravel versions**: 10, 11
+- **Supported PHP versions**: > 8.2
 
 ## Features
 
-- **Customer management**: Easily retrieve, create, and manage customer information.
-- **Invoice processing**: Create, update, and fetch invoices with minimal hassle.
-- **Exception handling**: Robust error management to handle API responses gracefully.
+- **Customer management**: Retrieve, create, and manage customer information.
+- **Invoice processing**: Create, update, and fetch invoices.
+- **Exception handling**: Error management to handle API responses.
 
 ![Veilig Lanceren](/veilig-lanceren-logo.png)
 
@@ -18,7 +25,7 @@ This package is maintained by VeiligLanceren.nl, your partner in website develop
 To use the Laravel package of MaakEenFactuur.nl in your project, require it via Composer in your terminal:
 
 ```bash
-composer require VeiligLanceren-nl/maakeenfactuur-laravel
+composer require veiliglanceren/maakeenfactuur-laravel
 ```
 
 ## Configuration
@@ -42,7 +49,7 @@ MAAKEENFACTUUR_API_KEY="YOUR_API_KEY"
 ### Managing Customers
 
 ```php
-use Gyvex\MaakEenFactuur\Facades\Customer;
+use VeiligLanceren\MaakEenFactuur\Facades\Customer;
 
 // Fetch all customers
 $customers = Customer::all();
@@ -57,7 +64,7 @@ $customer = Customer::find(1);
 ### Handling Invoices
 
 ```php
-use Gyvex\MaakEenFactuur\Facades\Invoice;
+use VeiligLanceren\MaakEenFactuur\Facades\Invoice;
 
 // Create an invoice
 $newInvoice = Invoice::create(['customer_id' => 1, 'amount' => 100.00]);
@@ -79,8 +86,8 @@ Both `Customer` and `Invoice` services throw an `ApiErrorException` if an API re
 ```php
 try {
     $invoice = Invoice::find(1);
-} catch (Gyvex\MaakEenFactuur\Exception\ApiErrorException $e) {
-    // Handle error
+} catch (VeiligLanceren\MaakEenFactuur\Exception\ApiErrorException $e) {
+    // TODO: Handle error
     echo 'Error: ' . $e->getMessage();
 }
 ```
